@@ -105,6 +105,7 @@
     "choropleth_data = prepare_choropleth_data(world_cup_df)\n",
     "# Initialize Dash\n",
     "app = dash.Dash(__name__)\n",
+    "server = app.server\n",
     "\n",
     "# Define layout\n",
     "app.layout = html.Div([\n",
